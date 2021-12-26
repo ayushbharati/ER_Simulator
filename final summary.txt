@@ -1,0 +1,30 @@
+Ayush Bharati
+CS 273 
+09/01/2021
+		
+				Final Summary of the 273 projects
+This project was very much challenging for me. First, I did not know where to start and how to start. 
+My first designed UML had classes and the names of the patient. But I worked through it and had to re-watch all the videos 
+again from the lectures to be able to use it in my program. I was able to run the program when I was working through the
+ Emergency room cpp file but after a while I was not able to implement my program due to compiler errors as it always said
+ that my source code terminated with exit code: 1. I tried to run the code in a different compiler, and it gave me the same
+ error.
+My project was designed based on the elements of an emergency room. I set up a parent class called Person that had the 
+attributes of the residents. It included name, health, and the health condition if they have been sick before. The sickness 
+had a severity number from 1 to 20. I also set a random number of doctors and nurses and patients per hour. The doctors and 
+nurses were busy based on if they were serving other patients. The doctors and nurses will cure and treat patients based on the 
+abstract class and virtual void function of cure Patients. Then there was a main class Emergency Room. This class randomly gives
+ the number of doctors, nurses and the patients visiting the ER. I updated the ER every hour. This also had functions that will
+ make the doctor and the nurse take the parent and cure the patient based on the severity.
+Since the code/program did not work I was unable to give the conclusion of average visit time and the graph of the visit time 
+for the patient. But I assume that the visit time of the patient depends on the number of doctors and nurses. When there are less doctors the visit time is more as more doctors and nurses will be busy assisting or curing other patients. 
+There are a lot of takeaways from the project. I am very grateful to my professor for the extension to submit the project as I
+ was dealing with personal stuff over the summer and the Data Structure class being an online class was very challenging. I had 
+to keep everything to the last minute and do my learning modules with my regular course overload. However, it would have been
+ very helpful for me if I had pre planned on the testing part of the project and more planning on software development cycle.
+ There were a lot of parts that I was not even sure on, and the big part was using iterators for my maps that maps the doctors 
+to the patients. I realized that every step of my code should be formulated and planned out and that would’ve prevented from 
+this to happen.
+
+
+
